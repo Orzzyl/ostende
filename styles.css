@@ -1,0 +1,178 @@
+
+.header-content-container{
+    display: grid;
+    grid-template-columns: 200px 500px 200px;
+    grid-auto-rows: auto;
+    gap: 2rem;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.brand-name-container{
+    grid-column: 1/2;
+    font-family: 'Tangerine', cursive;
+    font-size: 1.5rem;
+
+   
+}
+.span-1{
+    color: rgb(242, 131, 207);
+}
+.header-list-container{
+    grid-column: 2/3;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    font-size: 0.5rem;
+    font-family: 'Roboto Slab', serif;
+}
+.header-list-content{
+    margin: 0.5rem;
+}
+
+.span-2{
+    color: rgb(242, 131, 207);
+}
+
+.search-icon-container{
+    grid-column: 3/4;
+}
+.icon{
+    height: 1.5rem;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+  }
+
+.picture-container{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.picture-1{
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+   
+}
+.word-container{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+}
+
+.button-container{
+    margin-top: 10%;
+}
+.button-1{
+    padding: 1.5rem;
+    font-size: 0.8rem;
+    background-color: rgb(242, 131, 207);
+    color: white;
+    border: white;
+    border-style: double;
+}
+
+.overall-content-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+}
+
+.picture-2-container{
+ margin-top: 5%;
+}
+
+.picture-2{
+    height: 600px;
+    width: 350px;
+    object-fit: cover;
+    margin-right: 5%;
+}
+
+.info-container{
+    display: block;
+    font-family: 'Roboto Slab', serif;
+    margin-left: 1rem;
+}
+
+.span-3{
+    color:  rgb(242, 131, 207);
+    font-size: 0.7rem;
+}
+
+.date{
+    font-size: 0.7rem;
+}
+
+.name-1{
+    font-size: 0.7rem;
+    font-weight: light;
+}
+
+.span-4{
+    font-weight: bolder;
+    font-size: 0.8rem;
+}
+.button-container-1{
+    display: flex;
+    justify-content: space-between;
+    margin: 3rem;
+    text-align: center;
+}
+
+.button-2{
+    padding: 3px 30px;
+    background-color: rgb(210, 58, 58);
+    color: white;
+    border-style: double;
+    border-color: black;
+}
+
+.more-info{
+ margin-left: 3rem;
+ color:rgb(242, 131, 207)
+}
+
+.featured-container{
+    margin-left: 5%;
+}
+
+.featured{
+    font-size: 3rem;
+    font-family: 'Roboto Slab', serif;
+}
+
+.main-overall-content-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.overall-content-container-1{
+    text-align: center;
+}
+
+.image-1{
+    height: 23rem;
+    width: 16rem;
+    object-fit: cover;
+}
+
+.image-1-info-container{
+    font-family: 'Roboto Slab', serif;
+   
+}
+
+.name-2{
+    font-size: 1rem;
+}
+
+.date{
+    padding-top: 0.1rem;
+}
